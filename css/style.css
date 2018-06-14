@@ -19,3 +19,16 @@
     -ms-filter: blur(5px);
     filter: blur(5px);    
 }
+
+#button-members{
+    src: url(#member);
+    background: blanchedalmond;
+    background-size: 100%;    
+    background-image: url('../images/button-members.jpg');
+}
+
+#button-projects{
+    background: cadetblue;
+    background-size: 100%;
+    background-image: url('../images/projects.jpg');
+}
