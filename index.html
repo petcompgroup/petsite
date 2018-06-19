@@ -1,50 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>petcomp</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">{petcomp}</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#footer">contato</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">medium</a></li>
+      </ul>
 
-    <title>PETComp</title>
-  </head>
-  <body>
-    <section id="index">
-      <div class="container-fluid overlay">         
-      <div class="row align-items-center banner">
-        <div class="col">
-            <div class="text-center">
-              <h1 class="text-white font-weight-bold">PETComp</h1>
-              <p class="text-white">O PETComp se baseia em grupos tutoriais de aprendizagem, sob a orientação de um professor tutor, busca proporcionar aos membros condições para a realização de atividades extra-curriculares e de pesquisa que favoreçam a sua formação acadêmica</p>
-              <button type="button" class="btn btn-lg btn-light mt-5">Saiba mais</button>
-            </div>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">contato</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">medium</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text">PETComp</h1>
+        <div class="row center">
+          <p class="col s12 white-text">O PETComp se baseia em grupos tutoriais de aprendizagem, sob a orientação de um professor tutor, busca proporcionar aos membros condições para a realização de atividades extra-curriculares e de pesquisa que favoreçam a sua formação acadêmica</p>
         </div>
+
+        <!-- <div class="row center">
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Saiba mais</a>
+        </div> -->
+
+        <br><br>
+
       </div>
-      <div class="row h-100">
-        <div class="col-sm-12 col-md-6" id="button-members">                    
-          <div class="text-center mt-5 pt-5">
-            <h1 class="text-white font-weight-bold">Membros</h1>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <h4 class="header center teal-text">Realizamos</h4>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">wb_incandescent</i></h2>
+            <h5 class="center">Pesquisa</h5>
+
+            <p class="light">Cada membro do grupo deve realizar um atividade de pesquisa científica em uma área de seu interesse. <a>Saiba mais.</a></p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6" id="button-projects">
-          <div class="text-center mt-5 pt-5">
-            <h1 class="text-white font-weight-bold">Projetos</h1>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">school</i></h2>
+            <h5 class="center">Ensino</h5>
+
+            <p class="light">O grupo oferece atividades de ensino para o curso de ciência da computação da UNIOESTE. <a>Saiba mais.</a></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">people</i></h2>
+            <h5 class="center">Extensão</h5>
+
+            <p class="light">Atividades voltadas a comunidade local são planejadas e executadas pelo grupo. <a>Saiba mais.</a></p>
           </div>
         </div>
       </div>
-    </section>
-    <section id="members">
-      <h2>Members</h2>
-    </section>    
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="min-height: 175px;">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light"><a href="#" class="white-text">Membros</a></h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="parallax-container valign-wrapper" style="min-height: 175px;">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h3 class="header col s12 light"><a href="#" class="white-text">Projetos</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+  <footer id="footer" class="page-footer white">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">PETComp</h5>
+          <p class="black-text text-lighten-4">O PETComp se baseia em grupos tutoriais de aprendizagem, sob a orientação de um professor tutor, busca proporcionar aos membros condições para a realização de atividades extra-curriculares e de pesquisa que favoreçam a sua formação acadêmica.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Endereço</h5>
+          <ul>
+            <li><a class="black-text" href="#!">R. Universitária, 2069 - Universitário, Cascavel - PR, 85819-110</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Contato</h5>
+          <ul>
+            <li><a class="black-text" href="#!">petcomp@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container black-text">
+      Made by <a class="black-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
 </html>
