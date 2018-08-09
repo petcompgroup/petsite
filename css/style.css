@@ -90,3 +90,9 @@ a.right {
   float: right;
   margin-left: 15px;
 }
+
+div.intro{
+  background: url('../background1.jpg');
+  background-color: #db8a5d;
+  backdrop-filter: opacity(20%);
+}
