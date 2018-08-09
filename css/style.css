@@ -60,3 +60,33 @@ footer.page-footer {
   font-family: sans-serif;
   color: teal;
 }
+
+.logoC{
+  height: 50px;
+  margin-top: 5px;
+}
+
+.logo-main {
+  height: 100px;
+  margin-top: 10px;
+}
+
+p.text-intro{
+  /*color: #6fcfe2; - azul da logo*/
+  color: #929397; /*cinza da logo*/
+  /*font-weight: bold;*/
+  font-size: 20px;
+}
+
+.icon-color {
+  color: #6fcfe2;
+}
+
+.text-color {
+  color: #929397;
+}
+
+a.right {
+  float: right;
+  margin-left: 15px;
+}
